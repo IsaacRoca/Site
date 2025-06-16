@@ -1,0 +1,113 @@
+.BarraContribuintes {
+    background-color: black;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    gap: 50px; 
+    justify-content: start;
+}
+
+.ColunaAdmins, .ColunaContribuintes {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.LinhaBranca {
+    background-color: white;
+    width: 70px;
+    height: 2px;
+    margin-bottom: 5px;
+}
+
+.LinhaBranca2 {
+    background-color: white;
+    width: 120px;
+    height: 2px;
+    margin-bottom: 5px;
+}
+
+.Titulo {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 4px 0;
+}
+
+.Nome {
+    color: white;
+    font-size: 14px; 
+    margin: 1px 0; 
+}
+
+
+
+.Barra {
+    background-color:rgb(19, 19, 106);
+    padding: 1px;
+    display: flex;
+    gap: 200px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.Inicio {
+    padding: 5px 5px 5px 5px;
+    font-family: Lato;
+    color: white;
+    font-weight: 800;
+
+}
+.Comentarios {
+    padding: 5px 5px 5px 5px;
+    font-family: Lato;
+    color: white;
+    font-weight: 800;
+}
+.Inicio:hover {
+    text-decoration: underline;
+}
+.Comentarios:hover {
+    text-decoration: underline;
+}
+.TextoNegritaSub {
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.TextoNegrita {
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.Italica {
+    font-style: italic;
+}
+p {
+    text-align: justify;
+    line-height: 1.1;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+h3 {
+    font-size: 22px;
+    font-family:sans-serif;
+}
+h2 {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+h1 {
+    font-size: 36px;
+    font-family:"Lato", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
