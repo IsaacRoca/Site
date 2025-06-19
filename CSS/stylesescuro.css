@@ -1,5 +1,5 @@
 li {
-    color: black;
+    color: white;
 }
 
 .Titulo {
@@ -48,6 +48,7 @@ li {
     font-size: 14px; 
     margin: 1px 0; 
 }
+
 
 .CorLinkModoClaroEscuro {
     color: white;                
@@ -102,24 +103,24 @@ li {
     font-style: italic;
 }
 p {
-    color:black;
+    color: white;
     text-align: justify;
     line-height: 1.1;
     font-size: 19px;
     font-family: sans-serif;
 }
 h3 {
-    color: black;
+    color: white;
     font-size: 22px;
     font-family:sans-serif;
 }
 h2 {
-    color: black;
+    color: white;
     font-size: 28px;
     font-family: sans-serif;
 }
 h1 {
-    color: black;
+    color: white;
     font-size: 36px;
     font-family:"Lato", sans-serif;
 }
@@ -135,3 +136,6 @@ img {
     margin: 20px auto;
 }
 
+body{
+    background-color: black;
+}
